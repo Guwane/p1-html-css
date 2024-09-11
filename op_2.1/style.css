@@ -1,0 +1,38 @@
+body{
+     background-color: burlywood;
+}
+
+h1{
+     color: dodgerblue;
+     font-size: 36px;
+     
+
+}
+
+.img1{
+     width: 300px;
+}
+
+.img2{
+     width: 300px;
+}
+
+p{
+     font-size: 20px;
+}
+
+.p1{
+     color: darkolivegreen;
+}
+
+.p2{
+     color: darkolivegreen;
+}
+
+.zwart{
+     color: black;
+}
+
+.wit{
+     color: white;
+}
