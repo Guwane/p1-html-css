@@ -1,19 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tui Boekingsformulier</title>
 </head>
-<body>
-    <h1>The aside element</h1>
-<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great
-summer together with my family!</p>
-<aside>
-<h4>Epcot Center</h4>
-<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-
-winning fireworks and seasonal special events.</p>
-</aside>
 
+<body>
+
+    <header>
+        <center>
+            <h1>Boekingsformulier</h1>
+        </center>
+    </header>
+
+    <form action="result.html" method="post">
+        <div>
+            <label for="firstname">voornaam</label>
+            <input type="text" id="firstname" name="firstname" required>
+        </div>
+
+        <div>
+            <label for="surname">achternaam</label>
+            <input type="text" id="surname" name="surname" required>
+        </div>
+
+        <div>
+            <label for="gender">geslacht</label>
+            <div>
+                <label for="female">vrouw</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="male">man</label>
+                <input type="radio" name="gender" id="male" value="male" checked>
+            </div>
+        </div>
+
+        <div>
+            <label for="street">straatnaam</label>
+            <input type="text" name="street" id="street" required>
+            <label for="unitnumber">huisnummer</label>
+            <input type="text" name="unitnumber" id="unitnumber" required>
+        </div>
+
+        <div>
+            <label for="zipcode">postcode</label>
+            <input type="text" name="zipcode" id="zipcode" required>
+        </div>
+
+        <div>
+            <label for="city">stad</label>
+            <input type="text" name="city" id="city" required>
+        </div>
+
+        <div>
+            <label for="country">land</label>
+            <input type="text" name="country" id="country" required>
+        </div>
+
+        <div>
+            <label for="BSN">BSN-nummer</label>
+            <input type="text" name="BSN" id="BSN" maxlength="9" required>
+        </div>
+
+        <div>
+            <label for="travel-location">vakantie land</label>
+            <input type="text" name="travel-location" id="travel-location" required>
+        </div>
+
+        <div>
+            <label for="date-leave">vertrek datum</label>
+            <input type="date" name="date-leave" id="date-leave" min="2024-09-11" required>
+            <label for="date">terug komst datum</label>
+            <input type="date" name="date-leave" id="date-leave" min="2024-09-11" required>
+        </div>
+
+        <div>
+            <label for="people-nbr">aantal personen</label>
+            <input type="number" name="people-nbr" id="people-nbr" min="1" max="4">
+        </div>
+
+        <div>
+            <label for="E-mail">E-mail</label>
+            <input type="email" name="E-mail" id="E-mail">
+        </div>
+
+        <div>
+            <label for="password">wachtwoord</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <button type="submit">boek nu</button>
+
+    </form>
 </body>
+
 </html>
