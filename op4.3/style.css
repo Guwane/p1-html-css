@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Goldman", cursive;
+}
+
+.body1 {
+  font-family: "Goldman", cursive;
+  background-image: url(./img/background.jpeg);
+  background-size: cover;
+}
+
+.body2{
+  background-color: black;
+}
+
+header{
+  color: white;
+}
+
+.header1{
+  color: black;
+}
+
+main{
+  color: white;
+}
+
+.main1{
+  color: black;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+
+ul{
+  list-style-type: none;
+  overflow: auto;
+}
+
+li{
+  float: right;
+}
+
+li a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 20vw;
+  z-index: 1;
+
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,2);
+  z-index: 1;
+}
+
+.dropdown-content a{
+  color: black;
+  padding: 0.8rem 1rem;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.title{
+  font-weight: 900;
+}
+
+footer{
+  background-color: #00a8c7;
+  color: white;
+  width: 100vw;
+  text-align: center;
+  padding: 4rem;
+  font-size: 2.5rem;
+  margin-top: 70vw;
+}
