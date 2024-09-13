@@ -1,0 +1,68 @@
+*{
+    margin: 0; 
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    width: 100vw;
+    padding-top: 16.5vw;
+    padding-bottom: 16.5vw;
+    background-image: url(./img/OIP.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+h1{
+    font-size: 2.4rem;
+    color: rgb(132, 5, 5);
+    font-weight: 900;
+    font-style: italic;
+}
+
+h2{
+    font-size: 20px;
+    color: #0000ff;
+    font-weight: 900;
+}
+
+h3{
+    font-size: 16px;
+    color: teal;
+    font-weight: 900;
+}
+
+article{
+    border-style: solid;
+    border-color: black;
+    border-width: 0.3rem;
+    border-bottom-width: 0.15rem;
+   /* border-top-width: 0.15rem;
+    border-left-width: 0.4rem;*/
+}
+
+.article1{
+    border-top-width: 0,4rem;
+}
+
+p{
+    color: #4D4D4D;
+}
+
+.p1{
+    font-weight: 900;
+    color: rgb(132, 5, 5);
+}
+
+a{
+    color: #8A2BE2;
+    text-decoration: none;
+}
+
+img{
+    width: 50vw;
+}
