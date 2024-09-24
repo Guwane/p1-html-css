@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    border: 10px solid;
+    flex-direction: row-reverse;
+    height: 100vw;
+}
+
+.blue{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.green{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+.red{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.black{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
