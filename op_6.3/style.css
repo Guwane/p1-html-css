@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: antiquewhite;
+    display: flex;
+    padding: 2rem;
+}
+
+nav ul{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main{
+    /* background-color: black; */
+}
+
