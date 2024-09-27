@@ -10,15 +10,29 @@ nav{
     padding: 2rem;
 }
 
-nav ul{
+ul{
     width: 100%;
     display: flex;
     list-style-type: none;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-main{
-    /* background-color: black; */
+.center{
+    position: inherit;
+    display: flex;
+    flex-grow: 3;
+    justify-content: space-evenly;
 }
 
+.right{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.left{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
