@@ -156,10 +156,6 @@ ul{
   overflow: auto;
 }
 
-li{
-  float: right;
-}
-
 li a{
   color: rgb(255, 255, 255);
   text-decoration: none;
