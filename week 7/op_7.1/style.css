@@ -1,0 +1,115 @@
+nav{
+    background-color: red;
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+
+}
+
+ul{
+    position: relative;
+    display: flex;
+    list-style-type: none;
+}
+
+.box1{
+    background-color: yellow;
+}
+
+.box2{
+    background-color: orange;
+}
+
+.box3{
+    background-color: green;
+}
+
+@media (max-width: 1100px){
+    nav{
+        background-color: rgb(246, 119, 144);
+        display: flex;
+        width: 100%;
+        padding: 2rem;
+    
+    }
+    
+    ul{
+        position: relative;
+        display: flex;
+        list-style-type: none;
+    }
+    
+    .box1{
+        background-color: rgb(255, 50, 111);
+    }
+    
+    .box2{
+        background-color: rgb(78, 109, 232);
+    }
+    
+    .box3{
+        background-color: rgb(8, 0, 255);
+    }
+}
+
+@media (max-width: 600px) {
+    nav{
+        background-color: rgb(40, 115, 255);
+    }
+
+    .dropdown{
+        display: flex;
+        position: relative;
+        height: 20px;
+        width: 20px;
+        background-color: white;
+        float: right;
+        justify-content: end;
+        justify-items: end;
+        justify-self: end;
+    }
+    
+    .box1{
+        background-color: rgb(102, 242, 255);
+    }
+    
+    .box2{
+        background-color: rgb(244, 95, 255);
+    }
+    
+    .box3{
+        background-color: rgb(59, 0, 162);
+    }
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62,5%;
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-grow: 1;
+}
+
+.box1{
+    display: flex;
+    flex-grow: 2;
+}
+
+.box2{
+    display: flex;
+    flex-grow: 2;
+}
+
+.box3{
+    display: flex;
+    flex-grow: 2;
+}
