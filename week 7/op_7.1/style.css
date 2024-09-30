@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62,5%;
+}
+
 nav{
     background-color: red;
     display: flex;
@@ -23,6 +30,9 @@ ul{
 .box3{
     background-color: green;
 }
+
+
+
 
 @media (max-width: 1100px){
     nav{
@@ -52,6 +62,9 @@ ul{
     }
 }
 
+
+
+
 @media (max-width: 600px) {
     nav{
         background-color: rgb(40, 115, 255);
@@ -80,13 +93,6 @@ ul{
     .box3{
         background-color: rgb(59, 0, 162);
     }
-}
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-size: 62,5%;
 }
 
 .logo{
