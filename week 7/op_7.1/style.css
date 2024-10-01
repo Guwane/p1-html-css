@@ -35,6 +35,9 @@ ul{
 
 
 @media (max-width: 1100px){
+    /* body{
+        display: flex;
+    } */
     nav{
         background-color: rgb(246, 119, 144);
         display: flex;
@@ -68,6 +71,8 @@ ul{
 @media (max-width: 600px) {
     nav{
         background-color: rgb(40, 115, 255);
+        display: flex;
+        justify-content: space-between;
     }
 
     .dropdown{
@@ -76,10 +81,11 @@ ul{
         height: 20px;
         width: 20px;
         background-color: white;
-        float: right;
-        justify-content: end;
-        justify-items: end;
-        justify-self: end;
+        /* justify-content: space-between; */
+        /* float: right; */
+        /* justify-content: end; */
+        /* justify-items: end; */
+        /* justify-self: end; */
     }
     
     .box1{
@@ -95,14 +101,15 @@ ul{
     }
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
 .logo{
     color: white;
     text-decoration: none;
-}
-
-nav{
-    display: flex;
-    flex-grow: 1;
 }
 
 .box1{
